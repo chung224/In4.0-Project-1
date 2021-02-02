@@ -10,7 +10,7 @@ body,input {
 }
 
 .pheonix{
-	padding-top: 20px;
+	padding-top: 10px;
 	width: 100px;
 
 }
@@ -50,13 +50,77 @@ body,input {
 }
 .splash p {
 	width: 630px;
-	background-color: purple;
 	padding-left: 2px;
 
 }
 
 
 /*  */
+
+i {
+    font-size: 100px;
+}
+
+.cards {
+	padding-left: 10px;
+	padding-right: 10px;
+    width: 1095x;
+    display: flex; /* stack cards next to each other */
+    justify-content: space-between; /* Space out nicely */
+	text-align: center;
+	
+
+}
+
+.card1{
+	opacity: 0.7;
+	border-radius: 30%;
+    background-size: cover;
+	background-image: url(images/art_2.jpg);
+	justify-content: center;
+	align-items: center;
+    min-height: 360px;
+    width: 30%;
+    background-position: bottom;
+
+}
+.card2{
+	opacity: 0.7;
+	border-radius: 30%;
+    background-size: cover;
+	background-image: url(images/art_1.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+
+
+
+}
+.card3{
+	background-size: cover;
+	border-radius: 30%;
+	opacity: 0.7;
+	background-image: url(images/art_3.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+
+}
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box; /* squeeze in text without fucking up */
+}
+.cards p {
+    font-style: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px; /* top right bottom left */
+}
+
+/*  */
+
+
+
+
 
 
 body {
@@ -134,7 +198,6 @@ ul h4 {
 }
 
 #content {
-	background-color: blue;
 	width: 420px;
 	padding: 0;
 	float: left;
