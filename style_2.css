@@ -1,7 +1,5 @@
 
-body,input {
-	font-family: 'Ubuntu Condensed', sans-serif;
-}
+
 
 * {
 	padding: 0;
@@ -12,111 +10,70 @@ body,input {
 .pheonix{
 	padding-top: 10px;
 	width: 100px;
-
-}
-
-/* This section controls the motto image and the text inbetween  */
-
-.motto{
-	font-size: 48px;
-}
-
-.splash {
-	display: flex;
-	min-height: 300px;
-	width: 1100px;
-}
-
-.splash_1 {
-	flex: 2 /* ratio */;
-	color: white;
-	padding-left: 40px;
-}
-
-.splash img {
-	border-radius: 1000%;
 	opacity: 0.8;
-
-}
-
-.splash_2 {
-    flex: 1 /* ratio */;
-}
-
-.splash h1 {
-	margin-bottom: 25px;
-	font-size: 60px;
-	margin-top: 20px;
-}
-.splash p {
-	width: 630px;
-	padding-left: 2px;
-
-}
-
-
-/*  */
-
-i {
-    font-size: 100px;
-}
-
-.cards {
-	padding-left: 10px;
-	padding-right: 10px;
-    width: 1095x;
-    display: flex; /* stack cards next to each other */
-    justify-content: space-between; /* Space out nicely */
-	text-align: center;
 	
 
 }
 
-.card1{
-	opacity: 0.7;
-	border-radius: 30%;
-    background-size: cover;
-	background-image: url(images/art_2.jpg);
-	justify-content: center;
-	align-items: center;
-    min-height: 360px;
-    width: 30%;
-    background-position: bottom;
+
+
+
+
+.wrapper{
+	height: 2000px;
 
 }
-.card2{
-	opacity: 0.7;
-	border-radius: 30%;
-    background-size: cover;
-	background-image: url(images/art_1.jpg);
-    min-height: 250px;
-    width: 30%;
-    background-position: bottom;
 
-
-
-}
-.card3{
-	background-size: cover;
-	border-radius: 30%;
-	opacity: 0.7;
-	background-image: url(images/art_3.jpg);
-    min-height: 250px;
-    width: 30%;
-    background-position: bottom;
-
-}
-.card1, .card2, .card3 {
-    padding: 30px 30px 20px 30px;
-    box-sizing: border-box; /* squeeze in text without fucking up */
-}
-.cards p {
-    font-style: 0.85rem;
-    line-height: 1.2rem;
-    margin-top: 10px; /* top right bottom left */
+.oliv {
+	margin-top: 7px;
 }
 
-/*  */
+.Wrap h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+.Wrap h2 {
+	color: white;
+}
+
+img {
+	border-radius: 100%;
+}
+
+.Wrap p {
+	padding: 30px;
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.Contact_box_upper {
+	padding-top: 30px;
+	width: 1180px;
+	height: 750px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	
+}
+
+.Contact_box_lower {
+	padding-top: 30px;
+	width: 1180px;
+	height: 750px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	
+}
+
+
+
+
 
 
 
@@ -125,7 +82,7 @@ i {
 
 body {
 	color: #AFAFAF;
-	background-image: url(images/acrylic.jpg);
+	background-image: url(images/Contact2.jpg);
 	line-height: 2em;
 	font-size: 12pt;
 }
@@ -327,6 +284,7 @@ ul h4 {
 	background: rgba(0, 0, 0, 0.8);
 	margin: 0px auto 0 auto;
 	width: 1180px;
-	height: 1900px
+	height: 1900px;
+	position: relative;
 	box-shadow: inset 0px 0px 30px 0px rgba(255,255,255,0.05), 0px 0px 30px 0px rgba(0,0,0,0.5);
 }
