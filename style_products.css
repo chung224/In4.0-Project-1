@@ -14,12 +14,10 @@ body,input {
 	padding-top: 10px;
 	width: 100px;
 	opacity: 0.8;
-	
-
 }
 
 
-img {
+.art {
 	border: 1px solid grey;
 	margin-top: 5px;
 }
@@ -243,9 +241,6 @@ ul h4 {
 	text-decoration: none;
 }
 
-#logo h1 {
-	font-size: 3.25em;
-}
 
 #menu {
 	position: absolute;
