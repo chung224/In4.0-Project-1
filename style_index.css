@@ -1,7 +1,6 @@
 
-
 body,input {
-	font-family: 'Ubuntu Condensed', sans-serif !important;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 * {
@@ -13,78 +12,111 @@ body,input {
 .pheonix{
 	padding-top: 10px;
 	width: 100px;
+
+}
+
+/* This section controls the motto image and the text inbetween  */
+
+.motto{
+	font-size: 48px;
+}
+
+.splash {
+	display: flex;
+	min-height: 300px;
+	width: 1100px;
+}
+
+.splash_1 {
+	flex: 2 /* ratio */;
+	color: white;
+	padding-left: 40px;
+}
+
+.splash img {
+	border-radius: 1000%;
 	opacity: 0.8;
-	
+
+}
+
+.splash_2 {
+    flex: 1 /* ratio */;
+}
+
+.splash h1 {
+	margin-bottom: 25px;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.splash p {
+	width: 630px;
+	padding-left: 2px;
 
 }
 
 
+/*  */
 
-.wrapper{
-	height: 2000px;
-
+i {
+    font-size: 100px;
 }
 
-
-
-.Wrap p {
-	font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-.Wrap h1{
-	text-align: center;
-	font-size: 50px;
-	color: white;
-	margin-bottom: 20px;
-
-}
-
-.Wrap h2 {
-	color: white;
-}
-
-img {
-	border-radius: 100%;
-}
-
-.education {
-	text-align: center !important;
-	margin-bottom: 20px;
-}
-
-.Wrap p {
-	padding-right: 30px;
-	color: white;
-	font-size: 20px;
-	text-align: justify;
-}
-
-.Contact_box_upper {
-	margin-left: 20px;
-	padding-top: 30px;
-	width: 1180px;
-	height: 750px;
-	display: flex;
-	justify-content: space-between;
+.cards {
+	padding-left: 10px;
+	padding-right: 10px;
+    width: 1095x;
+    display: flex; /* stack cards next to each other */
+    justify-content: space-between; /* Space out nicely */
 	text-align: center;
 	
+
 }
 
-.Contact_box_lower {
-	margin-left: 20px;
-	padding-top: 30px;
-	width: 1180px;
-	height: 750px;
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-	
+.card1{
+	opacity: 0.7;
+	border-radius: 30%;
+    background-size: cover;
+	background-image: url(images/art_2.jpg);
+	justify-content: center;
+	align-items: center;
+    min-height: 360px;
+    width: 30%;
+    background-position: bottom;
+
+}
+.card2{
+	opacity: 0.7;
+	border-radius: 30%;
+    background-size: cover;
+	background-image: url(images/art_1.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+
+
+
+}
+.card3{
+	background-size: cover;
+	border-radius: 30%;
+	opacity: 0.7;
+	background-image: url(images/art_3.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+
+}
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box; /* squeeze in text without fucking up */
+}
+.cards p {
+    font-style: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px; /* top right bottom left */
 }
 
-
-
-
-
+/*  */
 
 
 
@@ -93,8 +125,9 @@ img {
 
 body {
 	color: #AFAFAF;
-	background-image: url(images/Contact2.jpg);
+	background-image: url(images/acrylic.jpg);
 	line-height: 2em;
+	font-size: 12pt;
 }
 
 
@@ -118,9 +151,12 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: normal;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	text-transform: uppercase;
 }
 
+h2 {
+	font-size: 1.75em;
+}
 
 h2,h3,h4 {
 	color: #E3E3E3;
@@ -144,6 +180,9 @@ img.aligntop {
 	margin: 5px 0 20px 0;
 }
 
+p {
+	margin-bottom: 1.75em;
+}
 
 ul {
 	margin-bottom: 1.75em;
@@ -158,6 +197,11 @@ ul h4 {
 	overflow: hidden;
 }
 
+#content {
+	width: 420px;
+	padding: 0;
+	float: left;
+}
 
 #footer {
 	font-size: 20px;
@@ -172,7 +216,7 @@ ul h4 {
 
 #header {
 	width: 1100px;
-	padding: 40px;
+	padding: 0px 40px 40px;
 	position: relative;
 	height: 120px;
 }
@@ -180,7 +224,7 @@ ul h4 {
 #logo {
 	height: 120px;
 	line-height: 120px;
-	top: 40px;
+	top: 20px;
 	left: 40px;
 	position: absolute;
 }
@@ -198,7 +242,7 @@ ul h4 {
 	position: absolute;
 	box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.05), inset 0px 3px 15px 0px rgba(0,0,0,0.5), 0px 1px 1px 0px rgba(255,255,255,0.08);
 	right: 40px;
-	top: 68px;
+	top: 34px;
 	height: 70px;
 	line-height: 70px;
 }
@@ -251,6 +295,18 @@ ul h4 {
 	border-top: 0;
 }
 
+#col1 {
+	width: 195px;
+	float: left;
+	overflow: hidden;
+}
+
+#col2 {
+	width: 195px;
+	margin: 0 0 0 220px;
+	overflow: hidden;
+}
+
 #sidebar1 {
 	padding: 0;
 	margin: 0 0 0 445px;
@@ -269,7 +325,4 @@ ul h4 {
 	background: rgba(0, 0, 0, 0.8);
 	margin: 0px auto 0 auto;
 	width: 1180px;
-	height: 1900px;
-	position: relative;
-	box-shadow: inset 0px 0px 30px 0px rgba(255,255,255,0.05), 0px 0px 30px 0px rgba(0,0,0,0.5);
-}
+	height: 1900px}
