@@ -19,13 +19,27 @@ body,input {
 }
 
 
+img {
+	border: 1px solid grey;
+	margin-top: 5px;
+}
 
-.wrap {
+
+.wrap_upper {
 	margin-left: 30px;
 	margin-right: 30px;
-	height: 1670px;
+	height: 735px;
 	position: relative;
 }
+
+.wrap_lower {
+	margin-top: -60px;
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 735px;
+	position: relative;
+}
+
 
 
 div.title {
@@ -38,7 +52,101 @@ div.title {
 	top: 20px;
 }
 
+hr {
+	margin-top: 20px;
+	opacity: 0.4;
+}
 
+
+
+
+
+h2 {
+	position: absolute ;
+	left: 20px;
+	margin-top: 50px;
+	font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.annotate_u {
+	position: absolute;
+	font-size: 30px;
+	top: 150px;
+	left: 18px;
+	opacity: 0.4;
+}
+
+.annotate_l {
+	position: absolute;
+	font-size: 30px;
+	top: 100px;
+	left: 18px;
+	opacity: 0.4;
+}
+
+
+.cards_upper {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	margin-right: 40px;
+    display: flex; /* stack cards next to each other */
+    justify-content: space-between; /* Space out nicely */
+	text-align: center;
+	margin-top: 180px;
+
+}
+
+.cards_lower {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	margin-right: 40px;
+    display: flex; /* stack cards next to each other */
+    justify-content: space-between; /* Space out nicely */
+	text-align: center;
+	margin-top: 180px;
+
+}
+
+.cards_u1{
+    background-size: cover;
+    height: 500px;
+    width: 30%;
+    background-position: bottom;
+	box-shadow: 3px 3px 3px rgb(0,0,0.228);
+	background-color: rgb(0,0,0.0,0.4);
+}
+
+.cards_u2{
+	background-size: cover;
+	height: 500px;
+	width: 30%;
+	background-position: bottom;
+	box-shadow: 3px 3px 3px rgb(0,0,0.228);
+	background-color: rgb(0,0,0.0,0.4);
+}
+
+.cards_u3{
+	background-size: cover;
+	height: 500px;
+	width: 30%;
+	background-position: bottom;
+	box-shadow: 3px 3px 3px rgb(0,0,0.228);
+	background-color: rgb(0,0,0.0,0.4);
+}
+
+.cards_u1, .cards_u2, .cards_u3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box; /* squeeze in text without fucking up */
+}
+
+
+.bottom_page{
+	width: 100%;
+	height: 350px;
+	background-color: rgb(0,0,0.0,0.4)
+}
 
 
 
