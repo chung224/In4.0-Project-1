@@ -376,3 +376,18 @@ hr {
 	margin: 0px auto 0 auto;
 	width: 1180px;
 	height: 1900px}
+
+
+
+	.Attach {
+		color: red;
+	}
+
+
+.AttachOnMouseOverText {
+		color: blue;
+}
+	
+.AttachOnMouseOutText {
+		color: white;
+}
