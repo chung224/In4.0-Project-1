@@ -24,7 +24,7 @@ body,input {
 .motto_2{
 	position: absolute;
 	top: 380px;
-	font-size: 15px;
+	font-size: 18px;
 	font-style: italic;
 	opacity: 0.7;
 	text-align: justify;
@@ -50,6 +50,7 @@ body,input {
 	flex: 2 /* ratio */;
 	color: white;
 	padding-left: 40px;
+	font-size: 18px;
 }
 
 .splash img {
@@ -59,7 +60,7 @@ body,input {
 }
 
 .splash_2 {
-    flex: 1 /* ratio */;
+	flex: 1 /* ratio */;
 }
 
 .splash h1 {

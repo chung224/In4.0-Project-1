@@ -57,8 +57,10 @@ hr {
 	height: 300px;
 	width: 1180px;
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	padding: 30px;
 	top: 250px;
+	font-size: 20px;
 }
 
 #email_box {
@@ -85,7 +87,6 @@ h2 {
 	margin-top: 50px;
 	font-family:  Calibri, 'Trebuchet MS', sans-serif;
 }
-
 
 
 
@@ -251,7 +252,7 @@ label{
 .cards {
 	position: absolute;
 	top: 300px;
-	left: 0px;
+	left: 40pxpx;
     width: 1100px;
     display: flex; /* stack cards next to each other */
     justify-content: space-between; /* Space out nicely */
