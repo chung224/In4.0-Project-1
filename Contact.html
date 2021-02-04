@@ -95,38 +95,41 @@
               <form>
                 <div class="form-row">
                   <div class="col">
-                    <label for="validationDefault01">First name</label>
+                    <label>First name</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="validationDefault01"
+                      id="first_name"
+                      name="first_name"
                       placeholder="Enter your first name here..."
-                      required
                     />
+                    <span class="error"><p id="name_error"></p></span>
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="col">
-                    <label for="validationDefault02">Last name</label>
+                    <label>Last name</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="validationDefault02"
+                      id="last_name"
+                      name="last_name"
                       placeholder="Enter your last name here..."
                     />
+                    <span class="error"><p id="last_error"></p></span>
                   </div>
                 </div>
 
                 <div class="form-row">
                   <div class="col">
-                    <label for="validationDefault03">Email</label>
+                    <label>Email</label>
                     <input
                       type="text"
                       class="form-control"
-                      id="inputEmail3"
+                      id="email"
                       placeholder="Enter your email here..."
-                      required
                     />
+                    <span class="error"><p id="email_error"></p></span>
                   </div>
                 </div>
                 <div class="form-group">
@@ -146,7 +149,7 @@
                 <button
                   class="btn btn-primary"
                   type="submit"
-                  onClick="validateForm()"
+                  onclick="validateForm()"
                 >
                   Submit
                 </button>
@@ -158,7 +161,7 @@
         <div class="cards">
           <div class="cards">
             <div class="card1">
-              <a href="#">
+              <a href="#" id="redirect">
                 <i
                   style="font-size: 10rem; color: white"
                   class="fas fa-envelope-open-text"
@@ -167,7 +170,7 @@
               </a>
             </div>
             <div class="card2">
-              <a href="#">
+              <a href="#" id="classes">
                 <i
                   style="font-size: 10rem; color: white"
                   class="fas fa-user-graduate"
@@ -176,7 +179,7 @@
               </a>
             </div>
             <div class="card3">
-              <a href="#">
+              <a href="#" id="chat">
                 <i
                   style="font-size: 10rem; color: white"
                   class="far fa-comments"
