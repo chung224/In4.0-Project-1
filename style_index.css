@@ -14,16 +14,7 @@ body,input {
 	width: 100px;
 
 }
-/* .homenooverlay {
-	text-decoration: underline !important; 
-	color: blue !important;
-}
 
-.homeoverlay {
-	color: white !important;
-} */
-
-/* This section controls the motto image and the text inbetween  */
 
 .motto{
 	font-size: 48px;
@@ -442,3 +433,30 @@ hr {
 .AttachOnMouseOutText {
 		color: white;
 }
+
+
+.homenooverlay {
+	color: blue !important;
+}
+.homeoverlay2 {
+	color: white !important;
+} 
+
+.homenooverlay2 {
+	color: blue !important;
+}
+.homeoverlay3 {
+	color: white !important;
+} 
+.homenooverlay3 {
+	color: blue !important;
+}
+.homeoverlay3 {
+	color: white !important;
+} 
+.homenooverla4 {
+	color: blue !important;
+}
+.homeoverlay4 {
+	color: white !important;
+} 
