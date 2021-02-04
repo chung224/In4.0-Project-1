@@ -13,7 +13,6 @@ body,input {
 .pheonix{
 	padding-top: 10px;
 	width: 100px;
-	color: red;
 }
 
 #title {
@@ -23,12 +22,7 @@ body,input {
 	font-size: 60px;
 	text-align: center;;
 }
-hr {
-	opacity: 0.4;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
+
 
 .wrapper{
 	height: 2000px;
@@ -69,6 +63,8 @@ img {
 }
 
 .Contact_box_upper {
+	position: relative;
+	top: 120px;
 	margin-left: 20px;
 	padding-top: 30px;
 	width: 1180px;
@@ -77,23 +73,55 @@ img {
 	justify-content: space-between;
 	text-align: center;
 	
+}
+
+div.bullet_points {
+	display: flex;
+
+}
+.box2 {
+	padding-right: 20px;
+}
+
+div.skills {
+	position: relative;
+	top: 20px;
+	width: 40%;
+	color: white;
+	list-style-position: inside;
+	text-align: left;
+}
+
+div.interests {
+	position: relative;
+	top: 20px;
+	width: 40%;
+	color: white;
+	list-style-position: inside;
+	text-align: left;
+
 }
 
 .Contact_box_lower {
+	position: relative;
+	top: 150px;
 	margin-left: 20px;
-	padding-top: 30px;
+	padding-top: 60px;
 	width: 1180px;
 	height: 750px;
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
+
 	
 }
 
 
 
 
-
+.name {
+	text-decoration: underline;
+}
 
 
 
@@ -255,10 +283,7 @@ ul h4 {
 	border-top: dotted 1px #404040;
 }
 
-#page ul li.first {
-	padding-top: 0;
-	border-top: 0;
-}
+
 
 #sidebar1 {
 	padding: 0;

@@ -7,13 +7,11 @@ body,input {
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Ubuntu Condensed', sans-serif !important;
 }
 
 .pheonix{
 	padding-top: 10px;
 	width: 100px;
-	opacity: 0.8;
 }
 
 .wrap {
@@ -40,8 +38,12 @@ body,input {
 	color: white;
 	width: 100%;
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 	top: 170px;
+}
+
+div h1 {
+	font-size: 60px;
 }
 
 hr {
@@ -214,9 +216,27 @@ ul h4 {
 	padding: 70px 40px 0px 40px;
 }
 
+label{
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 25px;
+}
+
+#email_box {
+	position: absolute;
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	padding: 30px;
+}
 
 
-
+#Message {
+	position: absolute;
+	top: 300px;
+	width: 500px;
+	height: 500px;
+}
 
 
 #wrapper {
@@ -226,4 +246,54 @@ ul h4 {
 	height: 1900px;
 	position: relative;
 	box-shadow: inset 0px 0px 30px 0px rgba(255,255,255,0.05), 0px 0px 30px 0px rgba(0,0,0,0.5);
+}
+
+.cards {
+	position: absolute;
+	top: 300px;
+	left: 0px;
+    width: 1100px;
+    display: flex; /* stack cards next to each other */
+    justify-content: space-between; /* Space out nicely */
+	text-align: center;
+	padding: 30px;
+
+}
+
+.card1{
+	background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4)
+;	width: 30%;
+	height: 320px;
+    background-position: bottom;
+}
+.card2{
+    background-size: cover;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 30%;
+	height: 50%;
+	height: 320px;
+    background-position: bottom;
+
+
+}
+.card3{
+    background-size: cover;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 50%;
+	width: 30%;
+	height: 320px;
+    background-position: bottom;
+
+}
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box; /* squeeze in text without fucking up */
+}
+
+.cards p {
+	color: white;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 25px;
 }
