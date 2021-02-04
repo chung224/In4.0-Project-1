@@ -75,7 +75,6 @@ hr {
 	height: 500px;
 	width: 1180px;
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.4);
 	top: 1320px;
 }
 
@@ -298,3 +297,44 @@ label{
 	text-decoration: none;
 	font-size: 25px;
 }
+
+.map {
+	position: absolute;
+	top: 1000px;
+	height: 500px;
+	width: 100%;
+	padding-left: 60px;
+	display: flex;
+	border-radius: 30%;
+}
+iframe {
+	border-radius: 10%;
+	border: 5px white;
+}
+
+.office {
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	right: 30px;
+	text-align: justify;
+}
+
+.office h2 {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: -40px;
+	right: 200px;
+}
+
+.office p{
+	position: relative;
+	top: 50px;
+	padding-top: 30px;
+	padding-right: 30px;
+	color: white;
+
+}
+
+
