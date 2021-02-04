@@ -445,7 +445,7 @@ hr {
 .homenooverlay2 {
 	color: blue !important;
 }
-.homeoverlay3 {
+.homeoverlay2 {
 	color: white !important;
 } 
 .homenooverlay3 {
@@ -454,9 +454,14 @@ hr {
 .homeoverlay3 {
 	color: white !important;
 } 
-.homenooverla4 {
+.homenooverlay4 {
 	color: blue !important;
 }
 .homeoverlay4 {
 	color: white !important;
 } 
+
+#foot {
+	text-align: center;
+
+}

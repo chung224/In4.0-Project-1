@@ -225,7 +225,7 @@
       </main>
     </div>
     <!-- Footer -->
-    <footer class="footer py-3">
+    <footer id="foot" class="footer py-3">
       <div class="container-footer">
         <span class="text-muted"
           >Copyright © 2021
@@ -254,4 +254,50 @@
       crossorigin="anonymous"
     ></script>
   </body>
+
+  <script>
+    function nav() { 
+  document.getElementById("home").className='homenooverlay';
+  
+     
+  }
+  function navout(){
+  document.getElementById("home").className='homeoverlay';
+  
+  }
+  </script>
+  
+  <script>
+    function nav2() { 
+  document.getElementById("Products").className='homenooverlay2';
+     
+  }
+  function navout2(){
+  document.getElementById("Products").className='homeoverlay2';
+  
+  }
+  </script>
+  
+  <script>
+    function nav3() { 
+  document.getElementById("Meet_the_team").className='homenooverlay3';
+     
+  }
+  function navout3(){
+  document.getElementById("Meet_the_team").className='homeoverlay3';
+  
+  }
+  </script>
+  
+  
+  <script>
+    function nav4(){ 
+  document.getElementById("Contact_Us").className='homenooverlay4';
+     
+  }
+  function navout4(){
+  document.getElementById("Contact_Us").className='homeoverlay4';
+  
+  }
+  </script>
 </html>
