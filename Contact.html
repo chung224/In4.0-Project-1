@@ -3,6 +3,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="Contact Us" content="Art gallery art classes" />
+    <meta name="keywords" content="Gallery, art, courses, classes, contact" />
+    <meta name="author" content="Capstone" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Added Bootstrap CSS -->
     <link
@@ -38,7 +41,7 @@
     <!-- Changed title of page -->
     <title>Contact</title>
     <!-- Addedd icon for page -->
-    <link rel="icon" href="/images/icon.jpg" type="image/x-icon" />
+    <link rel="icon" href="images/art_logo.png" type="image/x-icon" />
   </head>
   <body>
     <div id="wrapper">
@@ -50,12 +53,55 @@
         </div>
         <div id="menu">
           <ul>
+<<<<<<< Updated upstream
             <li class="first current_page_item">
               <a href="index.html">Home</a>
             </li>
             <li><a href="Products.html">Products</a></li>
             <li><a href="Meet_team.html">Meet the Team</a></li>
             <li><a href="Contact.html">Contact Us</a></li>
+=======
+            <li>
+              <a
+                id="home"
+                onmouseOver="nav();return true;"
+                onmouseOut="navout();return true;"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                id="Products"
+                href="Products.html"
+                onmouseOver="nav2();return true;"
+                onmouseOut="navout2();return true;"
+                href="index.html"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                id="Meet_the_team"
+                onmouseOver="nav3();return true;"
+                onmouseOut="navout3();return true;"
+                class="button"
+                href="Meet_team.html"
+                >Meet the Team</a
+              >
+            </li>
+            <li>
+              <a
+                id="Contact_Us"
+                class="last"
+                onmouseOver="nav4();return true;"
+                onmouseOut="navout4();return true;"
+                class="button"
+                href="Contact.html"
+                >Contact Us</a
+              >
+            </li>
+>>>>>>> Stashed changes
           </ul>
           <br class="clearfix" />
         </div>
@@ -224,6 +270,11 @@
         <div id="address_box"></div>
       </main>
     </div>
+    <div class="to-top">
+      <a class="float-right" href="#top"
+        ><button type="button" class="btn btn-dark">Back to Top</button></a
+      >
+    </div>
     <!-- Footer -->
     <footer class="footer py-3">
       <div class="container-footer">
@@ -237,6 +288,8 @@
 
     <!-- JavaScript page link -->
     <script src="src/script.js"></script>
+    <!-- API Google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <!-- Source code from Bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

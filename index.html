@@ -3,6 +3,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="Capstone Ltd" content="Art gallery and art classes" />
+    <meta name="keywords" content="Gallery, art, courses, classes" />
+    <meta name="author" content="Capstone" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Added Bootstrap CSS -->
     <link
@@ -38,7 +41,7 @@
     <!-- Changed title of page -->
     <title>Capstone</title>
     <!-- Addedd icon for page -->
-    <link rel="icon" href="/images/icon.jpg" type="image/x-icon" />
+    <link rel="icon" href="images/art_logo.png" type="image/x-icon" />
   </head>
   <body>
     <!-- Content body -->
@@ -52,17 +55,62 @@
         </div>
         <div id="menu">
           <ul>
+<<<<<<< Updated upstream
             <li class="first current_page_item">
               <a href="index.html">Home</a>
             </li>
             <li><a href="Products.html">Products</a></li>
             <li><a href="Meet_team.html">Meet the Team</a></li>
             <li class="last"><a href="Contact.html">Contact Us</a></li>
+=======
+            <li>
+              <a
+                id="home"
+                onmouseOver="nav();return true;"
+                onmouseOut="navout();return true;"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                id="Products"
+                href="Products.html"
+                onmouseOver="nav2();return true;"
+                onmouseOut="navout2();return true;"
+                href="index.html"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                id="Meet_the_team"
+                onmouseOver="nav3();return true;"
+                onmouseOut="navout3();return true;"
+                class="button"
+                href="Meet_team.html"
+                >Meet the Team</a
+              >
+            </li>
+            <li>
+              <a
+                id="Contact_Us"
+                class="last"
+                onmouseOver="nav4();return true;"
+                onmouseOut="navout4();return true;"
+                class="button"
+                href="Contact.html"
+                >Contact Us</a
+              >
+            </li>
+>>>>>>> Stashed changes
           </ul>
           <br class="clearfix" />
         </div>
       </div>
+      <!-- Section 1 Title -->
 
+<<<<<<< Updated upstream
 			<div class="splash">
 				<div class="splash_1">
 				<h1 class = "motto"><emphasize_1>Inspire. </emphasize_1><emphasize_2>Create. </emphasize_2><emphasize_3>Connect. </emphasize_3></h1>
@@ -88,120 +136,139 @@
           </div>
           <div class="artist3"><p>"Luminance" <br> Albert Einstein </p>
             </div>
-
+=======
+      <div class="splash">
+        <div class="splash_1">
+          <!-- Key Words -->
+          <h1 class="motto">
+            <emphasize_1
+              id="inspire"
+              onmouseOver="highlightBG();return true;"
+              onmouseOut="highlightOutBG();return true;"
+              >Inspire.</emphasize_1
+            >
+            <emphasize_2
+              id="create"
+              onmouseOver="highlightBG2();return true;"
+              onmouseOut="highlightOutBG2();return true;"
+              >Create.
+            </emphasize_2>
+            <emphasize_3
+              id="connect"
+              onmouseOver="highlightBG3();return true;"
+              onmouseOut="highlightOutBG3();return true;"
+              >Connect.
+            </emphasize_3>
+          </h1>
+          <h2>Capstone.</h2>
+          <p>
+            At Capstone ltd, we believe in the expression of the mind. <br />
+            Art is as a catalyst for human connection that can unify humanity,
+            regardless of differences. <br />
+            We provide a hub where independent and talented artists can connect,
+            inspire and share pieces of their artistic imagery.
+          </p>
+        </div>
+        <div id="splash_2">
+          <img id="female_male" src="images/img art.jpg" />
+        </div>
       </div>
-      <hr>
-
-      <div id="page">
-        <div id="content">
-          <div class="box">
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore, veniam.
-            </p>
-          </div>
-          <div id="col1" class="box">
-            <h3>Suscipit sed pellentesque nascetur</h3>
-            <ul class="section-list">
-              <li class="first">
-                <img
-                  class="alignleft"
-                  src="images/pic2.jpg"
-                  width="60"
-                  height="60"
-                  alt=""
-                />
-                <span>Lacinia natoque faucibus fringilla egestas.</span>
-              </li>
-              <li class="last">
-                <img
-                  class="alignleft"
-                  src="images/pic3.jpg"
-                  width="60"
-                  height="60"
-                  alt=""
-                />
-                <span
-                  >Penatibus quam auctor tristique aenean et lorem ipsum dolor
-                  et sit amet nisl veroeros et consequat amet lorem quisque duis
-                  lorem.</span
-                >
-              </li>
-            </ul>
-          </div>
-          <div id="col2" class="box">
-            <h3>Penatibus amet sed consequat accumsan</h3>
-            <img
-              class="aligntop"
-              src="images/pic4.jpg"
-              width="195"
-              height="100"
-              alt=""
-            />
-            <p>
-              Parturient imperdiet dignissim aliquet duis pulvinar. Vulputate
-              curae ipsum eu feugiat quisque duis. Magnis augue urna dolore
-              aliquam integer enim lorem ipsum dolor sit amet veroeros penatibus
-              et consequat.
-            </p>
-          </div>
-          <br class="clearfix" />
-        </div>
-        <div id="sidebar2">
-          <div class="box">
-            <h3>Volutpat condimentum auctor magna</h3>
-            <p>
-              Rhoncus et dui dignissim elementum. Vivamus lorem eu nisl
-              phasellus lorem dolore.
-            </p>
-            <ul class="list">
-              <li class="first"><a href="#">Mollis ornare arcu suscipit</a></li>
-              <li><a href="#">Accumsan quam ante</a></li>
-              <li><a href="#">Volutpat odio neque posuere</a></li>
-              <li class="last">
-                <a href="#">Volutpat urna tristique quisque</a>
-              </li>
-            </ul>
-          </div>
-          <div class="box">
-            <h3>Cubilia turpis</h3>
-            <ul class="list">
-              <li class="first"><a href="#">Libero duis ultrices</a></li>
-              <li><a href="#">Mattis quam massa mollis</a></li>
-              <li><a href="#">Nibh nisi blandit dolor tellus</a></li>
-              <li><a href="#">Nulla nulla dolore cras</a></li>
-              <li class="last"><a href="#">Montes convallis consectetur</a></li>
-            </ul>
-          </div>
-        </div>
-        <div id="sidebar1">
-          <div class="box">
-            <h3>Fringilla pharetra quis</h3>
-            <p>
-              Phasellus condimentum quis nec suscipit vel phasellus rutrum.
-              Tincidunt posuere eu integer risus magna lorem ipsum veroeros.
-            </p>
-          </div>
-          <div class="box">
-            <h3>Volutpat condimentum auctor dolore</h3>
-            <p>
-              Sapien ullamcorper mus penatibus viverra curae erat consectetur.
-              Scelerisque eleifend quis ullamcorper ante laoreet scelerisque.
-            </p>
-            <ul class="list">
-              <li class="first"><a href="#">Quis pellentesque orci cras</a></li>
-              <li><a href="#">Fringilla laoreet ultrices rhoncus</a></li>
-              <li><a href="#">Elementum primis viverra</a></li>
-              <li><a href="#">Curae mus penatibus et lorem</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-              <li><a href="#">Ornare convallis laoreet</a></li>
-              <li class="last"><a href="#">Elementum ante posuere magna</a></li>
-            </ul>
-          </div>
-        </div>
-        <br class="clearfix" />
+      <hr />
+      <div>
+        <h1 class="latest">Our latest artists</h1>
       </div>
+      <hr />
+      <div class="cards">
+        <div
+          id="card1"
+          class="card1"
+          onmouseOver="enlargepic();return true;"
+          onmouseOut="enlargepic2();return true;"
+        ></div>
+        <div
+          id="card2"
+          class="card2"
+          onmouseOver="enlargepic3();return true;"
+          onmouseOut="enlargepic4();return true;"
+        ></div>
+        <div
+          id="card3"
+          class="card3"
+          onmouseOver="enlargepic5();return true;"
+          onmouseOut="enlargepic6();return true;"
+        ></div>
+      </div>
+
+      <div class="artists">
+        <div id="artist1" class="artist1">
+          <p>
+            "Flourescence and Rain" <br />
+            David Beckham
+          </p>
+        </div>
+        <div id="artist2" class="artist2">
+          <p>
+            "Courage" <br />
+            Kim Kardashian
+          </p>
+        </div>
+        <div id="artist3" class="artist3">
+          <p>
+            "Luminance" <br />
+            Albert Einstein
+          </p>
+        </div>
+      </div>
+
+      <hr />
+>>>>>>> Stashed changes
+
+      <div>
+        <h1 class="reviews">Reviews</h1>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 id="date">John Doe</h3>
+            <h3 id="date">8/9/2020</h3>
+            <p class="motto_2">
+              Big thank you to everyone who came down and join our Learning
+              session in London last week. It was a great pleasure speaking to
+              everyone and we're deeply impressed with the work you have all
+              created. We have proudly presented some of your work on our front
+              page.
+            </p>
+          </div>
+          <div class="col">
+            <h3 id="date">John Doe</h3>
+            <h3 id="date">10/11/2020</h3>
+            <p class="motto_2">
+              Big thank you to everyone who came down and join our Learning
+              session in London last week. It was a great pleasure speaking to
+              everyone and we're deeply impressed with the work you have all
+              created. We have proudly presented some of your work on our front
+              page.
+            </p>
+          </div>
+          <div class="col">
+            <h3 id="date">John Doe</h3>
+            <h3 id="date">11/12/2020</h3>
+            <p class="motto_2">
+              Big thank you to everyone who came down and join our Learning
+              session in London last week. It was a great pleasure speaking to
+              everyone and we're deeply impressed with the work you have all
+              created. We have proudly presented some of your work on our front
+              page.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="to-top">
+      <a class="float-right" href="#top"
+        ><button type="button" class="btn btn-dark">Back to Top</button></a
+      >
     </div>
     <!-- Footer -->
     <footer class="footer py-3">

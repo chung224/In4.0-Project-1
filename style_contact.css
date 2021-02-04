@@ -346,3 +346,36 @@ section .card {
   border-color: rgb(88, 88, 88);
   color: black;
 }
+<<<<<<< Updated upstream
+=======
+
+.homenooverlay {
+  color: blue !important;
+}
+.homeoverlay2 {
+  color: white !important;
+}
+
+.homenooverlay2 {
+  color: blue !important;
+}
+.homeoverlay2 {
+  color: white !important;
+}
+.homenooverlay3 {
+  color: blue !important;
+}
+.homeoverlay3 {
+  color: white !important;
+}
+.homenooverlay4 {
+  color: blue !important;
+}
+.homeoverlay4 {
+  color: white !important;
+}
+
+#foot {
+  text-align: center;
+}
+>>>>>>> Stashed changes
