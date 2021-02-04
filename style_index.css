@@ -16,7 +16,6 @@ input {
 
 .motto {
   font-size: 44px;
-  text-align: justify;
 }
 .motto_2 {
   position: absolute;
@@ -65,6 +64,7 @@ input {
   font-size: 50px;
   margin-top: 20px;
 }
+
 .splash p {
   position: relative;
   top: 20px;
