@@ -67,47 +67,156 @@
           <h1>CONTACT US</h1>
           <hr />
         </div>
-        <div id="contact_text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis error amet repellendus cumque aliquam architecto sapiente ducimus praesentium culpa at officiis nihil corrupti minus, voluptatibus harum consequuntur quam odio explicabo.</p>
-          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ullam explicabo consequatur esse reprehenderit, nisi debitis assumenda perferendis, alias dignissimos rerum blanditiis, laboriosam commodi mollitia? Provident quibusdam iste corporis aut!</p>
-        </div>
+
+        <section class="contact-text">
+          <div id="contact_text">
+            <p>
+              We recently changed from our traditonal printed catalogue to
+              digital, inline with our new website.
+            </p>
+            <br />
+            <p>
+              Fill in our online form here
+              <i class="fas fa-angle-double-right"></i><br />if you would like
+              to sign up to our NEW electronic catalogue.
+            </p>
+
+            <br />
+            <p>
+              Tick the box if you would also like to subcribe to our weekly
+              newsletter.
+            </p>
+          </div>
+        </section>
+
+        <section class="contact">
+          <div class="card">
+            <div class="contact-form" id="contact">
+              <form>
+                <div class="form-row">
+                  <div class="col">
+                    <label for="validationDefault01">First name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationDefault01"
+                      placeholder="Enter your first name here..."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <label for="validationDefault02">Last name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationDefault02"
+                      placeholder="Enter your last name here..."
+                    />
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col">
+                    <label for="validationDefault03">Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputEmail3"
+                      placeholder="Enter your email here..."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <br />
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="invalidCheck2"
+                    />
+                    <label class="form-check-label" for="invalidCheck2">
+                      Subscribe to our weekly newsletter
+                    </label>
+                  </div>
+                </div>
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                  onClick="validateForm()"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
 
         <div class="cards">
           <div class="cards">
-            <div class="card1"><a href="#">
-              <i style="font-size: 10rem;color: white;" class="fas fa-envelope-open-text"></i>
-              <p>Email</p>
-            </a>
-          </div>
+            <div class="card1">
+              <a href="#">
+                <i
+                  style="font-size: 10rem; color: white"
+                  class="fas fa-envelope-open-text"
+                ></i>
+                <p>Email</p>
+              </a>
+            </div>
             <div class="card2">
               <a href="#">
-                <i style="font-size: 10rem;color: white;" class="fas fa-user-graduate"></i>
-              <p>Book a Class</p>
-            </a>
-          </div>
+                <i
+                  style="font-size: 10rem; color: white"
+                  class="fas fa-user-graduate"
+                ></i>
+                <p>Book a Class</p>
+              </a>
+            </div>
             <div class="card3">
               <a href="#">
-                <i style="font-size: 10rem;color: white;" class="far fa-comments"></i>
+                <i
+                  style="font-size: 10rem; color: white"
+                  class="far fa-comments"
+                ></i>
                 <p>Online Chat</p>
-            </a>
-          </div>
-      
+              </a>
+            </div>
           </div>
         </div>
         <div class="map">
           <div class="Google_maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2914126906094!2d-2.2392907840195577!3d53.48112277230828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1bf6d92aeff%3A0xc6188c2cf7090e7a!2sPiccadilly%20Gardens%20Fountain!5e0!3m2!1sen!2suk!4v1612431425622!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2914126906094!2d-2.2392907840195577!3d53.48112277230828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1bf6d92aeff%3A0xc6188c2cf7090e7a!2sPiccadilly%20Gardens%20Fountain!5e0!3m2!1sen!2suk!4v1612431425622!5m2!1sen!2suk"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
           </div>
           <div class="office">
             <h2>Our Office</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis adipisci neque vitae beatae nemo soluta aperiam, dolorem iusto culpa labore.</p>
-            <p class="office_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ab? Voluptas quam adipisci temporibus, odio reprehenderit inventore commodi! Obcaecati, sapiente.</p>
-            
+            <p>
+              <strong>Phone</strong>
+              <br />
+              General Enquries: 0161 000 0000 <br />Our Store: 0161 000 0000
+
+              <br /><br /><strong>Email</strong>
+              <br />
+              General Enquiries: capstone@capstone.co.uk <br />Our Store:
+              store@capstone.co.uk
+
+              <br /><br /><strong>Post</strong>
+              <br />
+              Capstone Ltd<br />1 Picadilly Gardens<br />Manchester<br />M1 1AA
+            </p>
           </div>
-          
-
         </div>
-
 
         <div id="address_box"></div>
       </main>
