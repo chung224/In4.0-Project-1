@@ -52,12 +52,10 @@
         </div>
         <div id="menu">
           <ul>
-            <li>
-              <a class="button" href="index.html">Home</a>
-            </li>
-            <li><a href="Products.html">Products</a></li>
-            <li><a href="Meet_team.html">Meet the Team</a></li>
-            <li class="last"><a href="Contact.html">Contact Us</a></li>
+            <li><a id="home" onmouseOver="nav();return true;" onmouseOut="navout();return true;"  class="button" href="index.html">Home</a></li>
+            <li><a id= "Products" href="Products.html">Products</a></li>
+            <li><a id= "Meet_the_team" href="Meet_team.html">Meet the Team</a></li>
+            <li id = "Contact_Us" class="last"><a href="Contact.html">Contact Us</a></li>
           </ul>
           <br class="clearfix" />
         </div>
@@ -79,17 +77,17 @@
       </div>
       
       <div class="cards">
-        <div class="card1"></div>
-        <div class="card2"></div>
-        <div class="card3"></div>
+        <div id = "card1" class="card1" onmouseOver="enlargepic();return true;" onmouseOut="enlargepic2();return true;"></div>
+        <div id = "card2" class="card2" onmouseOver="enlargepic3();return true;" onmouseOut="enlargepic4();return true;"></div>
+        <div id = "card3" class="card3" onmouseOver= "enlargepic5();return true;" onmouseOut="enlargepic6();return true;"></div>
       </div>
 
       <div class="artists">
-        <div class="artist1"><p>"flourescence and rain" <br> David Beckham </p>
+        <div id = "artist1" class="artist1"><p>"flourescence and rain" <br> David Beckham </p>
         </div>
-        <div class="artist2"><p>"Courage" <br> Kim Kardashian </p>
+        <div id = "artist2" class="artist2"><p>"Courage" <br> Kim Kardashian </p>
           </div>
-          <div class="artist3"><p>"Luminance" <br> Albert Einstein </p>
+          <div id = "artist3" class="artist3"><p>"Luminance" <br> Albert Einstein </p>
             </div>
 
       </div>
@@ -218,7 +216,11 @@
     </footer>
   
 
-    <!-- Javascript functions please do not touch!          -->
+    <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          --> <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          -->
+    <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          --> <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          -->
+    <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          --> <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          -->
+    <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          --> <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          -->
+    <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          --> <!-- Javascript functions please do not touch!          --><!-- Javascript functions please do not touch!          -->
     <!-- JavaScript page link -->
     <script src="src/script.js"></script>
     <!-- Source code from Bootstrap -->
@@ -268,6 +270,60 @@ document.getElementById("connect").className='AttachOnMouseOutText';
 <!-- script to enlarge images on homepage -->
 
   </body>
+
+  <script>
+    function enlargepic() { 
+  document.getElementById("card1").className='card1'; 
+  document.getElementById("artist1").className='artist1_hover'; 
+}
+function enlargepic2() {
+  document.getElementById("card1").className='card1enlarge';
+  document.getElementById("artist1").className='artist1';
+}
+  </script>
+
+<script>
+  function enlargepic3() { 
+document.getElementById("card2").className='card2'; 
+document.getElementById("artist2").className='artist2_hover'; 
+}
+function enlargepic4(){
+document.getElementById("card2").className='card2enlarge';
+document.getElementById("artist2").className='artist2';
+}
+</script>
+
+<script>
+  function enlargepic5() { 
+document.getElementById("card2").className='card2'; 
+document.getElementById("artist2").className='artist2_hover'; 
+}
+function enlargepic6(){
+document.getElementById("card2").className='card1enlarge';
+document.getElementById("artist2").className='artist2';
+}
+</script>
+
+<script>
+  function enlargepic5() { 
+document.getElementById("card3").className='card3'; 
+document.getElementById("artist3").className='artist3_hover'; 
+}
+function enlargepic6(){
+document.getElementById("card3").className='card3enlarge';
+document.getElementById("artist3").className='artist3';
+}
+</script>
+
+<!--<script>
+  function nav() { 
+document.getElementById("home").className='homenooverlay';   
+}
+function navout(){
+document.getElementById("home").className='homeoverlay';
+}
+</script> -->
+
 
 
 </html>

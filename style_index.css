@@ -14,6 +14,14 @@ body,input {
 	width: 100px;
 
 }
+.homenooverlay {
+	text-decoration: underline !important; 
+	color: blue !important;
+}
+
+.homeoverlay {
+	color: white !important;
+}
 
 /* This section controls the motto image and the text inbetween  */
 
@@ -106,6 +114,19 @@ i {
     background-position: bottom;
 
 }
+
+.card1enlarge{
+	opacity: 0.4;
+	border-radius: 30%;
+    background-size: cover;
+	background-image: url(images/art_2.jpg);
+	justify-content: center;
+	align-items: center;
+    min-height: 360px;
+    width: 30%;
+    background-position: bottom;
+
+}
 .card2{
 	opacity: 0.7;
 	border-radius: 30%;
@@ -114,9 +135,15 @@ i {
     min-height: 250px;
     width: 30%;
     background-position: bottom;
-
-
-
+}
+.card2enlarge{
+	opacity: 0.4;
+	border-radius: 30%;
+    background-size: cover;
+	background-image: url(images/art_1.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
 }
 .card3{
 	background-size: cover;
@@ -126,8 +153,17 @@ i {
     min-height: 250px;
     width: 30%;
     background-position: bottom;
-
 }
+.card3enlarge{
+	background-size: cover;
+	border-radius: 30%;
+	opacity: 0.4;
+	background-image: url(images/art_3.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+}
+
 .card1, .card2, .card3 {
     padding: 30px 30px 20px 30px;
     box-sizing: border-box; /* squeeze in text without fucking up */
@@ -154,11 +190,24 @@ i {
 
 .artist1 {
 	width: 30%;
+	opacity: 0.5;
 }
 .artist2 {
 	width: 30%;
+	opacity: 0.5;
 }
 .artist3 {
+	width: 30%;
+	opacity: 0.5;
+}
+
+.artist1_hover {
+	width: 30%;
+}
+.artist2_hover {
+	width: 30%;
+}
+.artist3_hover {
 	width: 30%;
 }
 
