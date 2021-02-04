@@ -17,6 +17,7 @@ input {
 .motto {
   font-size: 44px;
 }
+
 .motto_2 {
   position: absolute;
   top: 380px;
@@ -43,6 +44,7 @@ input {
 
 .splash_1 {
   flex: 2 /* ratio */;
+
   color: white;
   padding-left: 40px;
   font-size: 18px;
@@ -412,7 +414,7 @@ hr {
   background: rgba(0, 0, 0, 0.8);
   margin: 0px auto 0 auto;
   width: 1180px;
-  height: 1900px;
+  height: 1600px;
 }
 
 .Attach {
