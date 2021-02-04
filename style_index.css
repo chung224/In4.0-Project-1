@@ -15,7 +15,7 @@ input {
 }
 
 .motto {
-  font-size: 48px;
+  font-size: 44px;
   text-align: justify;
 }
 .motto_2 {
@@ -59,8 +59,10 @@ input {
 }
 
 .splash h1 {
+  position: relative;
+  top: 20px;
   margin-bottom: 10px;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 20px;
 }
 .splash p {
