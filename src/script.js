@@ -164,3 +164,17 @@ $("a[href='#top']").click(function () {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+
+// Product page lazy loading
+
+function loadingCheck() {
+  if ($(".citOnRock").is(":appeared")) {
+    console.log("Work");
+  }
+
+  if ($(".vibrant").is(":appeared")) {
+    console.log("Vibrant");
+  }
+}
+
+setInterval(loadingCheck, 1);
